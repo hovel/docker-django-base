@@ -13,9 +13,7 @@ RUN yum -y install gcc postfix openssh-server pwgen \
 		   curl wget vim mailcap \
            libtiff-devel libjpeg-devel libzip-devel freetype-devel lcms2-devel libwebp-devel tcl-devel tk-devel
 
-# mysql-python broken when mariadb-5.5.40 installed, downgrade to 5.5.37 and restore postfix
-RUN yum -y remove maria*
-RUN yum -y install mariadb-devel-1:5.5.37-1.el7_0.x86_64 postfix
+RUN pip install pip -U
 
 RUN localedef -i ru_RU -f UTF-8 ru_RU.UTF-8
 ENV LANG ru_RU.UTF-8
