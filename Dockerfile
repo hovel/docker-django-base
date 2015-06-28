@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 MAINTAINER Sergey Fursov <geyser85@gmail.com>
 
 # Upgrade system
