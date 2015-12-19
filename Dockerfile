@@ -50,6 +50,7 @@ ADD set_root_pw.sh /set_root_pw.sh
 ADD run.sh /run.sh
 ADD prod.sh /prod.sh
 ADD dev.sh /dev.sh
+ADD empty.sh /empty.sh
 RUN chmod +x /*.sh
 
 # default home dir
