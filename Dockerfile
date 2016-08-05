@@ -1,8 +1,8 @@
 FROM centos:7
-MAINTAINER Sergey Fursov <geyser85@gmail.com>
+MAINTAINER lampslave <lampslave@gmail.com>
 
 # Upgrade system
-# RUN yum -y upgrade
+RUN yum -y upgrade
 
 # Activate EPEL (at least for supervisor)
 RUN yum -y install epel-release
