@@ -1,10 +1,10 @@
-lxml==3.6.1
+lxml==3.7.3
 mysql-python==1.2.5
-django-storages==1.5.0
-boto==2.42.0
-boto3==1.4.0
+django-storages==1.5.2
+boto==2.46.1
+boto3==1.4.4
 gunicorn==19.6.0
-pillow==3.3.0
+pillow==3.4.2
 supervisor==3.3.1
 python-memcached==1.58
 redis==2.10.5
